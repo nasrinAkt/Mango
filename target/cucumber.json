@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "check user can click on bedroom checkbox",
+        "description": "",
+        "id": "this-is-a-feature-for-search-functionality;check-user-can-click-on-bedroom-checkbox",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4821117200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open \u003c\"URL\"\u003e man",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 7
+                }
+              ],
+              "location": "Mango_CreateAccount.open_man(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3798991500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "mouse hover on Diy projects and ideas",
+            "match": {
+              "location": "Mango_Search.mouse_hover_on_Diy_projects_and_ideas()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1875753300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on Bedroom",
+            "match": {
+              "location": "Mango_Search.click_on_Bedroom()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8719388100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "scroll down and check user can click on bedroom checkbox",
+            "match": {
+              "location": "Mango_Search.scroll_down_and_check_user_can_click_on_bedroom_checkbox()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "This is a feature for search functionality",
+    "description": "",
+    "id": "this-is-a-feature-for-search-functionality",
+    "keyword": "Feature",
+    "uri": "Mango_Search.feature"
+  }
+]
